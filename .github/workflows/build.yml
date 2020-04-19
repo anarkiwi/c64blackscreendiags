@@ -1,0 +1,13 @@
+name: build
+
+on: [push, pull_request]
+
+jobs:
+  build-job:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - run: echo 'debconf debconf/frontend select Noninteractive' | sudo debconf-set-selections && sudo apt-get update && sudo apt-get install -yq --no-install-recommends make xa65 vice && make
+      env:
+        DEBIAN_FRONTEND: noninteractive
