@@ -1,4 +1,5 @@
 ; use hires bitmap mode to visualize test pattern (and blink border for liveness)
+; don't use stack/memory to minimize dependencies.
 ; TODO: only tests one 8k bank (need to test all). use better test pattern/colors to visualize problems.
 
 	*=$8000
