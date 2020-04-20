@@ -11,3 +11,5 @@ References
 * http://blog.worldofjani.com/?p=164 (diagnostic cartridges)
 * http://blog.worldofjani.com/?p=158 (diagnosing bit positions)
 * https://codebase64.org/doku.php?id=base:built_in_screen_modes, https://codebase64.org/doku.php?id=base:vicii_memory_organizing) (VIC modes, banks)
+* https://ist.uwaterloo.ca/~schepers/roms.html (C64 e/proms)
+* http://blog.worldofjani.com/?p=757 (eprom adaptors)
